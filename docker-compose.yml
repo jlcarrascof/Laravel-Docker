@@ -18,10 +18,10 @@ services:
     image: mysql:5.7
     container_name: laravel_mysql
     environment:
-      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_ROOT_PASSWORD: q8643830
       MYSQL_DATABASE: example_db
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
+      MYSQL_USER: javier
+      MYSQL_PASSWORD: abc123
     ports:
       - "3307:3306"  # Mapeamos el puerto 3306 dentro del contenedor a 3307 en tu máquina local
     volumes:
@@ -34,7 +34,7 @@ services:
     container_name: laravel_phpmyadmin
     environment:
       PMA_HOST: mysql
-      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_ROOT_PASSWORD: q8643830
     ports:
       - "8081:80"  # Interfaz web de PhpMyAdmin accesible en el puerto 8081
     depends_on:
