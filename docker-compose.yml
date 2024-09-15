@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  app:
+    image: php:8.1-fpm
+    container_name: laravel_php_app
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - "8000:8000"  # Puerto expuesto para Laravel
+    working_dir: /var/www/html
+    networks:
+      - laravel_network
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:5.7
+    container_name: laravel_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: example_db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3307:3306"  # Mapeamos el puerto 3306 dentro del contenedor a 3307 en tu máquina local
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - laravel_network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: laravel_phpmyadmin
+    environment:
+      PMA_HOST: mysql
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - "8081:80"  # Interfaz web de PhpMyAdmin accesible en el puerto 8081
+    depends_on:
+      - mysql
+    networks:
+      - laravel_network
+
+networks:
+  laravel_network:
+    driver: bridge
+
+volumes:
+  mysql_data:
