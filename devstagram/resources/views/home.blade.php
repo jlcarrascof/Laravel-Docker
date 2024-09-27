@@ -11,6 +11,10 @@
 
     </head>
     <body>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+        </nav>
         <h1>HomePage</h1>
     </body>
 </html>
