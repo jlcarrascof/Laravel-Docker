@@ -14,6 +14,7 @@
         <nav>
             <a href="/">Home</a>
             <a href="/about">About</a>
+            <a href="/shop">Shop</a>
         </nav>
         <h1>About Us</h1>
     </body>
