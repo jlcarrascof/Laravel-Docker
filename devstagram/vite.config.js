@@ -9,11 +9,11 @@ export default defineConfig({
         }),
     ],
     server: {
-        host: 'localhost',  // Asegúrate de que Vite se sirva desde localhost
-        port: 5173,  // Puerto por defecto de Vite
+        host: '0.0.0.0',  // Cambia esto a '0.0.0.0' si lo ejecutas desde Docker
+        port: 5173,
+        cors: true,  // Habilita CORS en el servidor de Vite
         hmr: {
-            host: 'localhost',  // Asegúrate de usar localhost para HMR
+            host: '0.0.0.0',
         },
-        cors: true,  // Habilitar CORS en el servidor de Vite
     },
 });
