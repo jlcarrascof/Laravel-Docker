@@ -12,6 +12,7 @@
             <a href="/">Home</a>
             <a href="/about">About</a>
             <a href="/shop">Shop</a>
+            <a href="/contact">Contact</a>
         </nav>
     </body>
 
