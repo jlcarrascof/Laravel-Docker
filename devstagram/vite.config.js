@@ -8,4 +8,10 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    server: {
+        host: '0.0.0.0', // Permite el acceso desde cualquier host
+        hmr: {
+            host: 'localhost', // Usar 'localhost' para las actualizaciones de HMR (Hot Module Replacement)
+        },
+    },
 });
