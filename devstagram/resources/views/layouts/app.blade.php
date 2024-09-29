@@ -5,9 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>DevStagram - @yield('title')</title>
+        @vite('resources/css/app.css')
 
     </head>
     <body>
+        <h1 class="text-4xl">@yield('title')</h1>
 
+        <hr>
+
+        @yield('content')
     </body>
 </html>
