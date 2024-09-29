@@ -8,17 +8,6 @@
 
     </head>
     <body>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/shop">Shop</a>
-            <a href="/contact">Contact</a>
-        </nav>
 
-        <h1>@yield('title')</h1>
-
-        <hr>
-
-        @yield('content')
     </body>
 </html>
