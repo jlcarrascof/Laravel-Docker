@@ -15,6 +15,6 @@
         </nav>
     </body>
 
-    <h1>Name of the page</h1>
+    <h1>@yield('title')</h1>
 
 </html>
