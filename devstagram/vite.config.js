@@ -8,4 +8,12 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    server: {
+        host: '0.0.0.0',  // Cambia esto a '0.0.0.0' si lo ejecutas desde Docker
+        port: 5173,
+        cors: true,  // Habilita CORS en el servidor de Vite
+        hmr: {
+            host: '0.0.0.0',
+        },
+    },
 });
