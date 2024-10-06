@@ -14,6 +14,7 @@
             <a href="/">Homepage</a>
             <a href="/about">About Us</a>
             <a href="/shop">Shop</a>
+            <a href="/contact">Contact</a>
         </nav>
 
         <h1>@yield('title')</h1>
