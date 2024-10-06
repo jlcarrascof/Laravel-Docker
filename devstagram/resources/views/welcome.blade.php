@@ -21,6 +21,6 @@
         </style>
     </head>
     <body class="antialiased">
-
+        <h1>Hello world in Laravel</h1>
     </body>
 </html>
