@@ -17,6 +17,10 @@
         </nav>
 
         <h1>@yield('title')</h1>
+
+        <hr>
+
+        @yield('content')
     </body>
 
 </html>
