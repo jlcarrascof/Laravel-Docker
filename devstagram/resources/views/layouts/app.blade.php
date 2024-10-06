@@ -16,6 +16,7 @@
             <a href="/shop">Shop</a>
         </nav>
 
+        <h1>HomePage</h1>
     </body>
 
 </html>
