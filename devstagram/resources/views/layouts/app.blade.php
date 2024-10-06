@@ -7,7 +7,14 @@
         <title>Laravel</title>
 
     </head>
+
     <body>
+
+        <nav>
+            <a href="/">Homepage</a>
+            <a href="/about">About Us</a>
+            <a href="/shop">Shop</a>
+        </nav>
 
     </body>
 
