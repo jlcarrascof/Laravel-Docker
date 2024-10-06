@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('title')
-    HomePage
+    Shop
 @endsection
 
 @section('content')
-    Content for the homepage
+    Content for the shop
 @endsection
