@@ -9,7 +9,7 @@
     </head>
 
     <body>
-        <h1>@yield('title')</h1>
+        <h1 class="text-4xl font-extrabold">@yield('title')</h1>
 
         <hr>
 
