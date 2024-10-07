@@ -13,6 +13,11 @@
                 <h1 class="text-3xl font-black">
                     DevStagram
                 </h1>
+
+                <nav>
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>
+                </nav>
             </div>
         </header>
     </body>
