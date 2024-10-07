@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <title>Devstagram - @yield('title')</title>
-        @vite('resources/css/app.css')
+        <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
 
-    <body>
+    <body class="bg-gray-100">
 
     </body>
 
