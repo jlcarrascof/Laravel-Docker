@@ -21,7 +21,7 @@
             </div>
         </header>
 
-        <main>
+        <main class="container mx-auto mt-10">
             <h2>
                 @yield('title')
             </h2>
