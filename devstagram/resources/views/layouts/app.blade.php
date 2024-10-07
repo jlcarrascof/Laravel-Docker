@@ -30,6 +30,7 @@
         </main>
 
         <footer>
+            DevStagram - All rights reserved - 2021
         </footer>
     </body>
 
