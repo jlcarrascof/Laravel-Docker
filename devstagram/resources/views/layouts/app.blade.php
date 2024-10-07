@@ -14,7 +14,6 @@
         <hr>
 
         @yield('content')
-
     </body>
 
 </html>
