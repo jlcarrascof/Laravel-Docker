@@ -15,8 +15,8 @@
                 </h1>
 
                 <nav>
-                    <a href="#">Login</a>
-                    <a href="#">Register</a>
+                    <a class="font-bold uppercase text-gray-600 text-sm" href="#">Login</a>
+                    <a class="font-bold uppercase text-gray-600 text-sm" href="#">Register</a>
                 </nav>
             </div>
         </header>
