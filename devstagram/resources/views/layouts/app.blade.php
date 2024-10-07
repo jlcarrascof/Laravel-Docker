@@ -20,6 +20,17 @@
                 </nav>
             </div>
         </header>
+
+        <main>
+            <h2>
+                @yield('title')
+            </h2>
+
+            @yield('content')
+        </main>
+
+        <footer>
+        </footer>
     </body>
 
 </html>
