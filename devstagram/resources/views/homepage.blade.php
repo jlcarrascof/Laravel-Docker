@@ -5,5 +5,5 @@
 @endsection
 
 @section('content')
-    Content of HomePage
+    Content for the homepage
 @endsection
