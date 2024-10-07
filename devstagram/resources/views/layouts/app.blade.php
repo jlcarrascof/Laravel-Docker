@@ -29,7 +29,7 @@
             @yield('content')
         </main>
 
-        <footer>
+        <footer class="text-center p-5 text-gray-500 font-bold uppercase">
             DevStagram - All rights reserved - 2021
         </footer>
     </body>
