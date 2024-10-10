@@ -10,6 +10,14 @@
             <p>Image here</p>
         </div>
 
-        
+        <div class="md:w-1/2">
+            <form>
+                <div>
+                    <label id="name" class="mb-2 block uppercase text-gray-500 font-bold">
+                        Name
+                    </label>
+                </div>
+            </form>
+        </div>
     </div>
 @endsection
