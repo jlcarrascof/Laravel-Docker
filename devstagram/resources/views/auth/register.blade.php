@@ -7,7 +7,7 @@
 @section('content')
     <div class="md:flex md:justify-center">
         <div class="md:w-4/12">
-            <p>Image here</p>
+            <img src="{{ asset('img/registrar.png') }}" alt="Register on DevStagram image">
         </div>
 
         <div class="md:w-4/12 bg-white p-6 rounded-lg shadow-xl">
