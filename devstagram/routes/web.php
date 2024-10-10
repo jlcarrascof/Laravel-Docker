@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/create-account', function () {
-    return view('homepage');
+    return view('auth.register');
 });
