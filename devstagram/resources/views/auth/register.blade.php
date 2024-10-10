@@ -12,10 +12,11 @@
 
         <div class="md:w-1/2">
             <form>
-                <div>
-                    <label id="name" class="mb-2 block uppercase text-gray-500 font-bold">
+                <div class="mb-5">
+                    <label for="name" class="mb-2 block uppercase text-gray-500 font-bold">
                         Name
                     </label>
+                    <input id="name" name="name" type="text" placeholder="Your name" class="border p-3 w-full rounded-lg" />
                 </div>
             </form>
         </div>
