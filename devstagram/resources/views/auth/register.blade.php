@@ -47,6 +47,8 @@
                     <input id="password_confirmation" name="password_confirmation" type="password" placeholder="Confirm your password" class="border p-3 w-full rounded-lg" />
                 </div>
 
+                <input type="submit" value="Create Account" class="bg-sky-600 hover:bg-sky-700 transition-colors cursor-pointer uppercase font-bold w-full p-3 text-white rounded-lg" />
+
             </form>
         </div>
     </div>
