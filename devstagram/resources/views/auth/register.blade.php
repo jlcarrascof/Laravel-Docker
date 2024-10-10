@@ -5,12 +5,12 @@
 @endsection
 
 @section('content')
-    <div class="md:flex">
-        <div class="md:w-1/2">
+    <div class="md:flex justify-center">
+        <div class="md:w-4/12">
             <p>Image here</p>
         </div>
 
-        <div class="md:w-1/2">
+        <div class="md:w-4/12">
             <form>
                 <div class="mb-5">
                     <label for="name" class="mb-2 block uppercase text-gray-500 font-bold">
