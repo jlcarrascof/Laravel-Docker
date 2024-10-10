@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <div class="md:flex justify-center">
+    <div class="md:flex md:justify-center">
         <div class="md:w-4/12">
             <p>Image here</p>
         </div>
