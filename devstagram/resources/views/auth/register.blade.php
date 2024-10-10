@@ -32,6 +32,13 @@
                     </label>
                     <input id="email" name="email" type="email" placeholder="Your Email" class="border p-3 w-full rounded-lg" />
                 </div>
+
+                <div class="mb-5">
+                    <label for="password" class="mb-2 block uppercase text-gray-500 font-bold">
+                        Password
+                    </label>
+                    <input id="password" name="password" type="password" placeholder="Your Password" class="border p-3 w-full rounded-lg" />
+                </div>
             </form>
         </div>
     </div>
