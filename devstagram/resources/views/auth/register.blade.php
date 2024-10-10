@@ -18,6 +18,12 @@
                     </label>
                     <input id="name" name="name" type="text" placeholder="Your name" class="border p-3 w-full rounded-lg" />
                 </div>
+                <div class="mb-5">
+                    <label for="name" class="mb-2 block uppercase text-gray-500 font-bold">
+                        Username
+                    </label>
+                    <input id="name" name="name" type="text" placeholder="Username" class="border p-3 w-full rounded-lg" />
+                </div>
             </form>
         </div>
     </div>
