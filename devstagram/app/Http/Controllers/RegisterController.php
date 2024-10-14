@@ -16,6 +16,10 @@ class RegisterController extends Controller
     {
         // dd($request);
 
-        dd($request->get('username'));
+        // dd($request->get('username'));
+
+        // Validations
+
+
     }
 }
