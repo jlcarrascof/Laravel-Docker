@@ -18,5 +18,5 @@ Route::get('/', function () {
     return view('homepage');
 });
 
-Route::get('/create-account', [RegisterController::class, 'index'] );
-Route::post('/create-account', [RegisterController::class, 'store'] );
+Route::get('/register', [RegisterController::class, 'index'] );
+Route::post('/register', [RegisterController::class, 'store'] );
